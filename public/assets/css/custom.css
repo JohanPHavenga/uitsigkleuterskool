@@ -1,0 +1,59 @@
+::-moz-selection { background: #cfb383; }
+::selection { background: #cfb383; }
+
+.template-header .template-header-top .template-header-top-logo 
+{
+    max-width:480px;
+    /*width: 450px;*/
+}
+
+.template-content {
+    min-height: 0;
+}
+
+
+.template-component-menu-default ul.sf-menu>li.sf-mega-enable-0 ul,
+.template-component-menu-default ul.sf-menu>li.sf-mega-enable-1>div 
+{
+    border-color: #cfb383;
+}
+
+.template-background-image,
+.template-footer .template-footer-top
+{
+    background-image: url('../media/image/background.png');
+    background-position-y: bottom;
+}
+
+.template-icon-menu.template-icon-menu-document
+{
+    background-image: url('../media/image/icon/menu/document_brown.png')
+}
+.template-icon-menu.template-icon-menu-signpost
+{
+    background-image: url('../media/image/icon/menu/signpost_brown.png')
+}
+.template-icon-menu.template-icon-menu-envelope
+{
+    background-image: url('../media/image/icon/menu/envelope_brown.png')
+}
+.template-icon-menu.template-icon-menu-schoolbag
+{
+    background-image: url('../media/image/icon/menu/schoolbag_brown.png')
+}
+
+.template-component-call-to-action-content h3 {
+    color: #707070;
+}
+.template-component-call-to-action-content h3 b { color: #707070; }
+
+@media only screen and (min-width:0px) and (max-width:787px)
+{
+    .template-header .template-header-top .template-header-top-logo a img
+    {
+            max-width:300px;
+            margin-left:auto;
+            margin-right:auto;
+            padding: 5px 0;
+    }
+}
