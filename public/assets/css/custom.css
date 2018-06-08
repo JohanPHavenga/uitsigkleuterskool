@@ -21,31 +21,52 @@
 .template-background-image,
 .template-footer .template-footer-top
 {
-    background-image: url('../media/image/background.png');
+    background-image: url('../image/background.png');
     background-position-y: bottom;
 }
 
+.template-icon-menu.template-icon-menu-school
+{
+    background-image: url('../image/icon/menu/school_brown.png')
+}
 .template-icon-menu.template-icon-menu-document
 {
-    background-image: url('../media/image/icon/menu/document_brown.png')
+    background-image: url('../image/icon/menu/document_brown.png')
 }
 .template-icon-menu.template-icon-menu-signpost
 {
-    background-image: url('../media/image/icon/menu/signpost_brown.png')
+    background-image: url('../image/icon/menu/signpost_brown.png')
 }
 .template-icon-menu.template-icon-menu-envelope
 {
-    background-image: url('../media/image/icon/menu/envelope_brown.png')
+    background-image: url('../image/icon/menu/envelope_brown.png')
 }
 .template-icon-menu.template-icon-menu-schoolbag
 {
-    background-image: url('../media/image/icon/menu/schoolbag_brown.png')
+    background-image: url('../image/icon/menu/schoolbag_brown.png')
 }
 
 .template-component-call-to-action-content h3 {
     color: #707070;
 }
 .template-component-call-to-action-content h3 b { color: #707070; }
+
+@media only screen and (min-width:960px) and (max-width:1069px)
+{
+    .template-header .template-header-top .template-header-top-logo a img
+    {
+            max-width:400px;
+            padding-top: 10px;
+    }
+}
+@media only screen and (min-width:768px) and (max-width:979px)
+{
+    .template-header .template-header-top .template-header-top-logo a img
+    {
+            max-width:350px;
+            padding-top: 18px;
+    }
+}
 
 @media only screen and (min-width:0px) and (max-width:787px)
 {
