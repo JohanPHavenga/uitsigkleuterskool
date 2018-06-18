@@ -38,14 +38,14 @@ class Frontend_Controller extends MY_Controller {
     function set_menu_array() {
         $menu_arr = [
             // Tuis
-            [
+            'tuis'=>[
                 "text"=>"Tuis",
                 "url"=>"tuis",
                 "icon"=>"school",
                 "seg"=>"tuis",
             ],
             // Inligting
-            [
+            'inligting'=>[
                 "text"=>"Inligting",
                 "url"=>"inligting",
                 "icon"=>"signpost",
@@ -55,15 +55,15 @@ class Frontend_Controller extends MY_Controller {
                     "left"=>[
                                 [
                                 "text"=>"Aansoeke & Plasings",
-                                "url"=>'inligting/aansoeke',
+                                "url"=>base_url('inligting/aansoeke'),
                                 ],
                                 [
                                 "text"=>"Algemeen",
-                                "url"=>'',
+                                "url"=>base_url('inligting/algemeen'),
                                 ],
                                 [
                                 "text"=>"Benodighede",
-                                "url"=>'',
+                                "url"=>base_url('inligting/benodighede'),
                                 ],
                                 [
                                 "text"=>"Beserings & siektes",
@@ -109,21 +109,21 @@ class Frontend_Controller extends MY_Controller {
                 ],
             ],
             // Klasse
-            [
+            'klasse'=>[
                 "text"=>"Klasse",
                 "url"=>"klasse",
                 "icon"=>"schoolbag",
                 "seg"=>"klasse",
             ],
             // Aflaai
-            [
+            'aflaai'=>[
                 "text"=>"Aflaai",
                 "url"=>"aflaai",
                 "icon"=>"document",
                 "seg"=>"aflaai",
             ],
             // Kontak
-            [
+            'kontak'=>[
                 "text"=>"Kontak Ons",
                 "url"=>"kontak",
                 "icon"=>"envelope",
@@ -149,4 +149,7 @@ class Frontend_Controller extends MY_Controller {
         
         return $return;
     }
+    
+    
+
 }

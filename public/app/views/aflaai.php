@@ -16,7 +16,7 @@
                 <ul>
                     <?php
                     foreach ($file_arr as $file):
-                        echo "<li><a href=''>" . $file . "</a></li>";
+                        echo "<li><a href='./aflaai/download/".$file."'>" . $file . "</a></li>";
                     endforeach;
                     ?>
                 </ul>

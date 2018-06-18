@@ -20,6 +20,11 @@ class Inligting extends Frontend_Controller {
    
     public function index($info_piece="index")
     {                   
+        if (!file_exists(APPPATH.'views/inligting/'.$info_piece.'.php'))
+        {
+            show_404();
+        }
+        
         $ini_array = parse_ini_file("webdata.ini", true);
         $this->data_to_view['web_data']=$ini_array;
         
@@ -32,9 +37,12 @@ class Inligting extends Frontend_Controller {
         $this->data_to_header['header_bottom']=$this->set_header_bottom($hb_params);
         $this->data_to_header['page_title'] = "Inligting";
         $this->data_to_header['meta_description'] = "Algemene inligting oor ons kleuterskool";        
+        
+        $this->data_to_view['inligting_menu']=$this->data_to_header['menu_array']['inligting']['submenu'];
                 
         $this->load->view($this->header_url, $this->data_to_header);        
         $this->load->view('inligting/'.$info_piece, $this->data_to_view);
+        $this->load->view('templates/info_menu',["bg_color"=>2]);
         $this->load->view('templates/enroll',["bg_color"=>2]);
         $this->load->view($this->footer_url, $this->data_to_footer);
     }

@@ -26,5 +26,23 @@ class Aflaai extends Frontend_Controller {
         $this->load->view('templates/enroll',["bg_color"=>2]);
         $this->load->view($this->footer_url, $this->data_to_footer);
     }
+    
+    public function download($fileName = NULL) {
+        $this->load->helper('download');
+        if ($fileName) {
+            $file = realpath("uploads") . "\\" . $fileName;
+                        
+            // check file exists    
+            if (file_exists($file)) {
+                // get file content
+                $data = file_get_contents($file);
+                //force download
+                force_download($fileName, $data);
+            } else {
+                // Redirect to base url
+                redirect(base_url("aflaai"));
+            }
+        }
+    }
         
 }

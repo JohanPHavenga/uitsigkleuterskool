@@ -9,7 +9,18 @@
     </div>
 
     
+    <div class="template-component-list template-component-list-style-5">	
+        <ul>
+            <?php
+                foreach ($inligting_menu as $col):
+                    foreach ($col as $item):
+                        echo "<li><a href='".$item['url']."'>".$item['text']."</a></li>";
+                    endforeach;
+                endforeach;
+            ?>
+        </ul>
+    </div>
 </div>
 <?php
-//wts($file_arr);
+wts($inligting_menu);
 
