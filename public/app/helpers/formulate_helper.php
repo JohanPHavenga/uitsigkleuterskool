@@ -53,6 +53,19 @@ if ( ! function_exists('fdateShort'))
     }
 }
 
+if ( ! function_exists('fdateHuman'))
+{
+    function fdateHuman($date) 
+    {
+        if ($date)
+        {
+            return date("j F Y",strtotime($date));
+        } else {
+            return false;
+        }
+    }
+}
+
 if ( ! function_exists('fdateLong'))
 {
     function fdateLong($date, $show_sec=TRUE) 

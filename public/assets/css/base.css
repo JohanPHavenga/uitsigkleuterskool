@@ -461,8 +461,8 @@ textarea,
 	.tp-caption.tp-font-handlee,
 	.template-widget-menu ul>li>a:hover
 	{
-                color:#96d000 
-                /*groen*/
+                color:#94A53A 
+                /*groen #94A53A */
 		/*color:#d02c33;*/
                 /*red*/
 	}
@@ -629,14 +629,14 @@ textarea,
 	{
 		/*background-color:#FE6500;*/
 		background-color:#d02c33;
-                /*background-color:#96d000;*/
+                /*background-color:#94A53A;*/
                 /*red*/
 	}
 	
 	.tp-leftarrow:hover,
 	.tp-rightarrow:hover
 	{
-		background-color:#96d000 !important;
+		background-color:#94A53A !important;
 	}
 	
 	.template-background-color-1,
@@ -655,7 +655,7 @@ textarea,
 	.template-component-social-icon.template-component-social-icon-style-2>ul>li>a,
 	.template-component-social-icon.template-component-social-icon-style-1>ul>li>a:hover
 	{
-		background-color:#96d000;
+		background-color:#94A53A;
 	}
 	
 	.template-header,
@@ -955,7 +955,7 @@ textarea,
 	
 	.tp-bullets .tp-bullet:hover
 	{
-		border-color:#96d000 !important;
+		border-color:#94A53A !important;
 	}
 	
 	.template-post-meta a,

@@ -29,7 +29,7 @@ class Frontend_Controller extends MY_Controller {
     function __construct()
     {
         parent::__construct();
-        $this->data_to_header['menu_array']=$this->set_menu_array();
+        $this->data_to_header['menu_array']=$this->data_to_footer['menu_array']=$this->set_menu_array();
         
 //        $this->load->model('property_model');
                 
@@ -47,7 +47,7 @@ class Frontend_Controller extends MY_Controller {
             // Inligting
             [
                 "text"=>"Inligting",
-                "url"=>"#",
+                "url"=>"inligting",
                 "icon"=>"signpost",
                 "seg"=>"inligting",
                 "submenu"=>
@@ -55,7 +55,7 @@ class Frontend_Controller extends MY_Controller {
                     "left"=>[
                                 [
                                 "text"=>"Aansoeke & Plasings",
-                                "url"=>'',
+                                "url"=>'inligting/aansoeke',
                                 ],
                                 [
                                 "text"=>"Algemeen",
@@ -132,5 +132,21 @@ class Frontend_Controller extends MY_Controller {
         ];
         
         return $menu_arr;
+    }
+    
+    
+    function set_header_bottom($params=[]) {        
+        if (empty($params)) { return false; }
+        
+        $return = '<div class="template-header-bottom" style="margin-top: 0px;">';
+        $return .= '<div class="template-header-bottom-background template-header-bottom-background-img-'.$params['bg_img_num'].' template-header-bottom-background-style-'.$params['bg_style_num'].'">';
+        $return .= '<div class="template-main">';
+        $return .= '<h1>'.$params['heading'].'</h1>';
+        $return .= '<h6>'.$params['sub_heading'].'</h6>';
+        $return .= '</div>';
+        $return .= '</div>';
+        $return .= '</div>';
+        
+        return $return;
     }
 }

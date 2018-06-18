@@ -51,6 +51,35 @@
 }
 .template-component-call-to-action-content h3 b { color: #707070; }
 
+ul.footer-menu li {
+    display: inline;
+}
+ul.footer-menu li a {
+    margin: 0 10px;
+}
+
+.template-component-class > ul > li > .template-layout-flex-50x50 > div > span, 
+.template-component-class > ul > li > .template-layout-flex-50x50 > div > 
+.template-layout-flex-50x50 span:first-child + span
+{
+    color: #f1f1f1;
+}
+.template-layout-flex-50x50 h5 b
+{
+    color: #fff;
+}
+
+.template-footer .template-footer-bottom {
+    /*border-top: 5px solid #94A53A;*/
+}
+
+.template-component-blockquote {
+    padding: 8px 0px 8px 30px;
+    border-width: 0px 0px 0px 2px;
+    background-repeat: no-repeat;
+    background-image: none;
+}
+
 @media only screen and (min-width:960px) and (max-width:1069px)
 {
     .template-header .template-header-top .template-header-top-logo a img

@@ -1,6 +1,6 @@
 <?php
-$page_title = $page_title ?? "Uitsig Kleuterskool & Dagsorgsentrum";
-$meta_description = $meta_description ?? "'n Kleuterskool vir kleuters 18 maande tot 5jaar. Die skool en dagsorf is deel van NG Kerk Uitsig Gemeente en en word volgens Christelike beginsels bedryf.";
+$page_title = $page_title ?? "Christelike kleuterskool vir 18 maande tot 5 jariges";
+$meta_description = $meta_description ?? "Die kleuterskool en dagsorg is deel van NG Kerk Uitsig Gemeente in Ridgeworth, Bellville en en word volgens Christelike beginsels bedryf.";
 ?>
 <!DOCTYPE html>
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
@@ -10,7 +10,7 @@ $meta_description = $meta_description ?? "'n Kleuterskool vir kleuters 18 maande
     <!-- BEGIN HEAD -->
 
     <head>
-        <title><?= $page_title; ?></title>    
+        <title>Uitsig Kleuterskool & Dagsorgsentrum - <?= $page_title; ?></title>    
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
 
@@ -166,7 +166,9 @@ $meta_description = $meta_description ?? "'n Kleuterskool vir kleuters 18 maande
 
             <!-- Bottom header -->
             <div class="template-header-bottom">
-
+                <?= $header_bottom; ?>
             </div>
 
         </div>
+             
+        <div class="template-content">
