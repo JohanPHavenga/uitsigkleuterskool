@@ -94,7 +94,7 @@ $meta_description = $meta_description ?? "Die kleuterskool en dagsorg is deel va
                 <div class="template-main template-clear-fix">
 
                     <div class="template-header-top-logo">
-                        <a href="index.php">
+                        <a href="<?= base_url();?>">
                             <img src="<?= base_url('assets/image/train_130_alt.png'); ?>" alt=""/>
                             <!--<img src="media/image/logo_header.png" alt="" />-->
                         </a>

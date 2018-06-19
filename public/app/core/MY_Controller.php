@@ -67,43 +67,43 @@ class Frontend_Controller extends MY_Controller {
                                 ],
                                 [
                                 "text"=>"Beserings & siektes",
-                                "url"=>'',
+                                "url"=>base_url('inligting/beserings'),
                                 ],
                                 [
                                 "text"=>"Buitemuurse Aktiwiteite",
-                                "url"=>'',
+                                "url"=>base_url('inligting/buitemuurs'),
                                 ],
                             ],
                     "center"=>[
                                 [
                                 "text"=>"Dagprogram",
-                                "url"=>'',
+                                "url"=>base_url('inligting/dagsorg'),
                                 ],
                                 [
                                 "text"=>"Dissipline",
-                                "url"=>'',
+                                "url"=>base_url('inligting/dissipline'),
                                 ],
                                 [
                                 "text"=>"Klasindelings",
-                                "url"=>'',
+                                "url"=>base_url('inligting/klasindelings'),
                                 ],
                                 [
                                 "text"=>"Kommunikasie",
-                                "url"=>'',
+                                "url"=>base_url('inligting/kommunikasie'),
                                 ],
                                 [
                                 "text"=>"Maaltye",
-                                "url"=>'',
+                                "url"=>base_url('inligting/maaltye'),
                                 ],
                             ],
                     "right"=>[
                                 [
                                 "text"=>"Skoolfooie",
-                                "url"=>'',
+                                "url"=>base_url('inligting/skoolfooie'),
                                 ],
                                 [
                                 "text"=>"Veiligheid en sekuriteit",
-                                "url"=>'',
+                                "url"=>base_url('inligting/veiligheid'),
                                 ],
                             ],
                 ],

@@ -13,7 +13,8 @@
                         <?php
                         foreach ($inligting_menu as $col):
                             foreach ($col as $item):
-                                echo "<li><a href='" . $item['url'] . "'>" . $item['text'] . "</a></li>";
+                                $a = ($item['url']==current_url()) ? "active" : "";
+                                echo "<li><a href='" . $item['url'] . "' class='$a'>" . $item['text'] . "</a></li>";
                             endforeach;
                         endforeach;
                         ?>
@@ -23,3 +24,7 @@
         </li>
     </ul>	
 </div>
+
+<?php
+// echo current_url();
+// wts($inligting_menu);
