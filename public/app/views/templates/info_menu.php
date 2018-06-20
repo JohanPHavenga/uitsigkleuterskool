@@ -1,5 +1,5 @@
 
-<div class="template-content-section template-padding-top-reset template-padding-bottom-5 template-main">
+<!--<div class="template-content-section template-padding-top-reset template-padding-bottom-5 template-main">-->
     <!-- Widgets list -->
     <ul class="template-widget-list">	
         <li>
@@ -23,7 +23,7 @@
             </div>
         </li>
     </ul>	
-</div>
+<!--</div>-->
 
 <?php
 // echo current_url();

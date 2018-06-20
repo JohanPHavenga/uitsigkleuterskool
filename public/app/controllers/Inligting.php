@@ -38,11 +38,14 @@ class Inligting extends Frontend_Controller {
         $this->data_to_header['page_title'] = "Inligting";
         $this->data_to_header['meta_description'] = "Algemene inligting oor ons kleuterskool";        
         
-        $this->data_to_view['inligting_menu']=$this->data_to_header['menu_array']['inligting']['submenu'];
+        $this->data_to_view['inligting_menu']=$this->data_to_info_menu['inligting_menu']=$this->data_to_header['menu_array']['inligting']['submenu'];
+        
+        // put info_menu view in a variable
+        $this->data_to_view['info_menu']=$this->load->view('templates/info_menu',$this->data_to_info_menu, true);
                 
         $this->load->view($this->header_url, $this->data_to_header);        
         $this->load->view('inligting/'.$info_piece, $this->data_to_view);
-        $this->load->view('templates/info_menu',["bg_color"=>2]);
+//        $this->load->view('templates/info_menu',["bg_color"=>2]);
         $this->load->view('templates/enroll',["bg_color"=>2]);
         $this->load->view($this->footer_url, $this->data_to_footer);
     }

@@ -8,32 +8,34 @@
                 <li class="template-layout-column-left">
                     <div class="template-icon-feature template-icon-feature-name-tick-alt"></div>
                     <h5>Christelike Waardes</h5>
-                    <p>Die Kleuterskool is ‘n Christelike kleuterskool en word volgens Christelike beginsels bedryf.</p>	
+                    <p>Die Kleuterskool is ‘n Christelike kleuterskool en word volgens Christelike beginsels bedryf.</p>
                 </li>
                 <li class="template-layout-column-right">
                     <div class="template-icon-feature template-icon-feature-name-blocks-alt"></div>
                     <h5>Dissipline</h5>
-                    <p>Elipsis magna a terminal nulla elementum morbi elite forte maecenas est magna.</p>			
+                    <p>Toepassing van dissipline geskied op ’n positiewe en nie afbrekende manier.</p>	
                 </li>	
                 <li class="template-layout-column-left">
                     <div class="template-icon-feature template-icon-feature-name-teddy-alt"></div>
                     <h5>Veiligheid</h5>
-                    <p>Elipsis magna a terminal nulla elementum morbi elite forte maecenas est magna.</p>			
+                    <p>Daar word gepoog om vir kleuters 'n gevoel van geborgenheid te gee. 
+                        Tannie tree as plaasvervanger vir ouers op solank kleuters by die skool is. 
+                        Sekuriteit en veiligheid van kleuters is van kardinale belang.</p>			
                 </li>
                 <li class="template-layout-column-right">
                     <div class="template-icon-feature template-icon-feature-name-briefcase-alt"></div>
-                    <h5>Professionaliteit</h5>
-                    <p>Praesent interdum est gravida vehicula est node maecenas loareet morbi a dosis.</p>			
+                    <h5>Professionaliteit en uitmuntende dienslewering</h5>
+                    <p>Ten opsigte van skakeling met ouers en die lewer van 'n liefdesdiens met goeie kommunikasie.</p>			
                 </li>
                 <li class="template-layout-column-left">
                     <div class="template-icon-feature template-icon-feature-name-people-alt"></div>
                     <h5>Respek</h5>
-                    <p>Elipsis magna a terminal nulla elementum morbi elite forte maecenas est magna.</p>			
+                    <p>Is gerig op die kweek van selfrespek en eiewaarde. •	Wedersydse respek van personeel sowel as kleuters en ouers word verwag.</p>			
                 </li>
                 <li class="template-layout-column-right">
                     <div class="template-icon-feature template-icon-feature-name-heart-alt"></div>
                     <h5>Eerlikheid, integriteit en lojaliteit</h5>
-                    <p>Praesent interdum est gravida vehicula est node maecenas loareet morbi a dosis.</p>			
+                    <p>Deur personeel en ouers teenoor skool, kinders, ouers en mede personeel.</p>			
                 </li>
             </ul>
         </div>
@@ -58,13 +60,13 @@
                     <h6><a href="#">Wat is julle skool tye?</a></h6>
                     <div>
                         <p>
-                            Maecenas prion neque vuluptat sem in porttitil curabitur mattis, vitae elite forte, adiscipling elit. Novum elementum est dosis cuprum gravida.
+                            Ons is oop vanaf 06:30 - 18:00. Halfdag kinders is by ons tot 12:30.
                         </p>
                     </div>
                     <h6><a href="#">Wat is die skoolgelde?</a></h6>
                     <div>
                         <p>
-                            Ons skoolgelde vir <?=$web_data['general']['jaar'];?> is <b><?=fdisplayCurrency($web_data['financial']['vol_dag_fooi']);?></b> vir voldag, en <b><?=fdisplayCurrency($web_data['financial']['half_dag_fooi']);?></b> vir halfdag sorg.
+                            Ons skoolgelde vir <?= $web_data['general']['jaar']; ?> is <b><?= fdisplayCurrency($web_data['financial']['vol_dag_fooi']); ?></b> vir voldag, en <b><?= fdisplayCurrency($web_data['financial']['half_dag_fooi']); ?></b> vir halfdag sorg.
                         </p>
                     </div>
                     <h6><a href="#">Is die skool oop vir skool vakansies?</a></h6>

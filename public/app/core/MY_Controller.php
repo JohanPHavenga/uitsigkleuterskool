@@ -77,24 +77,25 @@ class Frontend_Controller extends MY_Controller {
                     "center"=>[
                                 [
                                 "text"=>"Dagprogram",
-                                "url"=>base_url('inligting/dagsorg'),
+                                "url"=>base_url('inligting/dagprogram'),
                                 ],
                                 [
                                 "text"=>"Dissipline",
                                 "url"=>base_url('inligting/dissipline'),
                                 ],
                                 [
-                                "text"=>"Klasindelings",
-                                "url"=>base_url('inligting/klasindelings'),
-                                ],
-                                [
                                 "text"=>"Kommunikasie",
                                 "url"=>base_url('inligting/kommunikasie'),
+                                ],
+                                [
+                                "text"=>"Medikasie",
+                                "url"=>base_url('inligting/medikasie'),
                                 ],
                                 [
                                 "text"=>"Maaltye",
                                 "url"=>base_url('inligting/maaltye'),
                                 ],
+                                
                             ],
                     "right"=>[
                                 [

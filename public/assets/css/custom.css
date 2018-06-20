@@ -88,6 +88,22 @@ ul.footer-menu li a {
     border-left-width:2px;
 }
 
+.template-component-vertical-grid.dagprogram > ul > li > div:first-child 
+{
+    color: #d02c33;
+    text-align: right;
+}
+.template-component-vertical-grid.dagprogram > ul > li > div:first-child + div 
+{
+    text-align: left;
+    color: #707070;
+}
+
+.template-component-feature.template-component-feature-size-medium.template-component-feature-position-left ul > li > ul {
+    list-style-type: circle;
+    margin-left: 126px;
+}
+
 
 @media only screen and (min-width:960px) and (max-width:1069px)
 {
