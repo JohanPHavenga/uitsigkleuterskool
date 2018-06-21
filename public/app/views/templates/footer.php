@@ -31,6 +31,9 @@
                     <div>
                         &copy;&nbsp;<?=date("Y");?> <a href="<?= base_url(); ?>">Uitsig Kleuterskool en Dagsorgsentrum</a> 
                         <!--by <a href="">JohanPHavenga</a>-->
+                        <?php
+                        echo CI_VERSION; 
+                        ?>
                     </div>
                 </div>
             </div>
