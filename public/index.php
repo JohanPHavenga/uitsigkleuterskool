@@ -44,6 +44,8 @@
  define("DB_LOCATION", $ini_array['db_location']);
  define("BASE_PATH", $ini_array['base_path']);
 
+// set na Afrikaans
+setlocale(LC_ALL, 'Afrikaans');
 
 /*
  *---------------------------------------------------------------

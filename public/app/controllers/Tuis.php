@@ -29,4 +29,11 @@ class Tuis extends Frontend_Controller {
         $this->load->view('404', $this->data_to_view);
         $this->load->view($this->footer_url, $this->data_to_footer);
     }
+    
+    public function localtime() 
+    {
+        $this->load->view($this->header_url, $this->data_to_header);
+        $this->load->view('localtime', $this->data_to_view);
+        $this->load->view($this->footer_url, $this->data_to_footer);
+    }
 }

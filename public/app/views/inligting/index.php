@@ -22,5 +22,5 @@
     </div>
 </div>
 <?php
-wts($inligting_menu);
+//wts($inligting_menu);
 

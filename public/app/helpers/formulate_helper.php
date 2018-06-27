@@ -59,7 +59,8 @@ if ( ! function_exists('fdateHuman'))
     {
         if ($date)
         {
-            return date("j F Y",strtotime($date));
+//            return date("j F Y",strtotime($date));
+            return strftime("%e %B %G",strtotime($date));
         } else {
             return false;
         }
@@ -91,6 +92,21 @@ if ( ! function_exists('fdateYear'))
         if ($date)
         {
             return date("Y",strtotime($date));
+        } else {
+            return false;
+        }
+    }
+}
+
+if ( ! function_exists('fdateMonthLong'))
+{
+    function fdateMonthLong($date) 
+    {
+        if ($date)
+        {
+            //return date("F",strtotime($date));
+            return strftime("%B",strtotime($date));
+            
         } else {
             return false;
         }

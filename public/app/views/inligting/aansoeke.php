@@ -48,7 +48,7 @@
                 </p>
             </div>
 
-            <p><strong>Die eerste rondte plasings sal teen einde Julie afgehandel word. Indien daar nog plekke beskikbaar is, sal 'n tweede rondte plasings gedoen word.</strong></p>
+            <p><strong>Die eerste rondte plasings sal teen einde <?= fdateMonthLong($web_data['aansoeke']['sluitings_datum']); ?> afgehandel word. Indien daar nog plekke beskikbaar is, sal 'n tweede rondte plasings gedoen word.</strong></p>
 
             <h5>Klasindelings:</h5>
             <p>Klasse word jaarliks oor ingedeel. Uitsig Kleuterskool reseveer die reg om klasindelings te doen in oorleg met huidige personeel en met inagneming van kleuters se 
