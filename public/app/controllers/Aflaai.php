@@ -28,10 +28,11 @@ class Aflaai extends Frontend_Controller {
     }
     
     public function download($fileName = NULL) {
+                
         $this->load->helper('download');
         if ($fileName) {
             $fileName=str_replace("%20"," ",$fileName);
-            $file = realpath("uploads") . "\\" . $fileName;
+            $file = realpath("uploads") . "/" . $fileName;
                         
 //            wts($file);
 //            exit();
