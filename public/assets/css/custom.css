@@ -105,6 +105,10 @@ ul.footer-menu li a {
 }
 
 
+.template-background-image.template-background-image-6 {
+	background: url('../image/_sample/1920x1200/6.jpg');
+}
+
 @media only screen and (min-width:960px) and (max-width:1069px)
 {
     .template-header .template-header-top .template-header-top-logo a img
