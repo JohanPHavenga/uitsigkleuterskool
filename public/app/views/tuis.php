@@ -72,7 +72,7 @@
                     <h6><a href="#">Is die skool oop vir skool vakansies?</a></h6>
                     <div>
                         <p>
-                            Phasellus consequat est eleifend, leo condimentum nec nllam ut lectus turpis. Nunc sharme nullam an suscipit bibendum sagittis.
+                            Ja ons is! Dagsorg gaan voort gedurende skoolvakansies. Ons sluit slegs vir 'n periode oor kersfees en nuwe jaar. Die presiese datums word gekomminukeer aan die ouers.
                         </p>
                     </div>
                 </div>
@@ -90,7 +90,7 @@
                         <li class="template-layout-column-left">
                             <span class="template-component-counter-list-label">Kinders in die skool</span>
                             <span class="template-component-counter-list-counter">
-                                <span class="template-component-counter-list-counter-value">160</span>
+                                <span class="template-component-counter-list-counter-value">192</span>
                                 <span class="template-component-counter-list-counter-character">kinders</span>
                             </span>
                             <span class="template-component-counter-list-timeline">
@@ -100,7 +100,7 @@
                         <li class="template-layout-column-left">
                             <span class="template-component-counter-list-label">Personeel lede</span>
                             <span class="template-component-counter-list-counter">
-                                <span class="template-component-counter-list-counter-value">30</span>
+                                <span class="template-component-counter-list-counter-value">25</span>
                                 <span class="template-component-counter-list-counter-character">lede</span>
                             </span>
                             <span class="template-component-counter-list-timeline">
@@ -110,7 +110,7 @@
                         <li class="template-layout-column-left template-margin-bottom-reset">
                             <span class="template-component-counter-list-label">Hoeveelheid werkdae wat dagsorg toe is per jaar</span>
                             <span class="template-component-counter-list-counter">
-                                <span class="template-component-counter-list-counter-value">12</span>
+                                <span class="template-component-counter-list-counter-value">15</span>
                                 <span class="template-component-counter-list-counter-character">dae</span>
                             </span>
                             <span class="template-component-counter-list-timeline">
