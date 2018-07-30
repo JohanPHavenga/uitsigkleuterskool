@@ -1,5 +1,5 @@
 <?php
-    if (!isset($bg_color)) { $bg_color=0; } 
+    if (!isset($bg_color)) { $bg_color=0; }
 ?>
 <!-- Section -->
 <div class="template-component-divider template-margin-reset"></div>
@@ -17,7 +17,7 @@
                 <!-- Right column -->
                 <div class="template-component-call-to-action-content-right">
                     <!-- Button -->
-                    <a href="#" class="template-component-button template-component-button-style-1">Kontak Ons<i></i></a>
+                    <a href="<?=base_url('kontak');?>" class="template-component-button template-component-button-style-1">Kontak Ons<i></i></a>
                 </div>
             </div>
         </div>
@@ -25,4 +25,3 @@
 </div>
 <div class="template-component-divider template-margin-reset"></div>
 <!-- END enroll -->
-
