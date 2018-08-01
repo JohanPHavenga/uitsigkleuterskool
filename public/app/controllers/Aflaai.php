@@ -7,7 +7,8 @@ class Aflaai extends Frontend_Controller {
     {                   
         // kryh dokumente in uplods folder
         $this->load->helper('file');    
-        $file_arr = get_filenames("uploads");       
+        $file_arr = get_filenames("uploads");     
+		sort($file_arr);	
         $this->data_to_view["file_arr"]=$file_arr;
         
         $hb_params=[
