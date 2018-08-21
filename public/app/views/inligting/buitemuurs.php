@@ -37,7 +37,7 @@
                         <li class="template-layout-column-left" style="visibility: visible;">
                             <div class="template-icon-feature template-icon-feature-name-people-alt template-icon-feature-size-medium"></div>
                             <h5>Crickey Krieket</h5>
-                            <p>Navrae: <b>Jacques</b><br>082 491 4881</p>
+                            <p>Navrae: <b>Johan</b><br>072 271 0396</p>
                         </li>
                         <li class="template-layout-column-center" style="visibility: visible;">
                             <div class="template-icon-feature template-icon-feature-name-blocks-alt template-icon-feature-size-medium"></div>
