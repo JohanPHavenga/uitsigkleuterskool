@@ -52,7 +52,7 @@ $meta_description = $meta_description ?? "Die kleuterskool en dagsorg is deel va
         <link rel="stylesheet" type="text/css" href="<?= base_url('assets/css/revslider/navigation.css'); ?>"/> 
         <link rel="stylesheet" type="text/css" href="<?= base_url('assets/css/base.css'); ?>"/> 
         <link rel="stylesheet" type="text/css" href="<?= base_url('assets/css/responsive.css'); ?>"/> 
-        <link rel="stylesheet" type="text/css" href="<?= base_url('assets/css/retina.css'); ?>"/> 
+        <!--<link rel="stylesheet" type="text/css" href="<?= base_url('assets/css/retina.css'); ?>"/>--> 
         <link rel="stylesheet" type="text/css" href="<?= base_url('assets/css/custom.css'); ?>"/> 
         <link rel="stylesheet" href="#" type="text/css" id="color-variant">
         <script type="text/javascript" src="<?= base_url('assets/script/jquery.min.js');?>"></script>

@@ -26,7 +26,7 @@
                         </li>	
                         <li class="template-layout-column-right" style="visibility: visible;">
                             <div class="template-icon-feature template-icon-feature-name-briefcase-alt template-icon-feature-size-medium"></div>
-                            <h5>Aquatoads Swemskool</h5>
+                            <h5>Quick Silver Swemskool</h5>
                             <p>Navrae: <b>Charlene</b><br>082 550 8045</p>			
                         </li>	
                     </ul>
@@ -47,7 +47,7 @@
                         <li class="template-layout-column-right" style="visibility: visible;">
                             <div class="template-icon-feature template-icon-feature-name-teddy-alt template-icon-feature-size-medium"></div>
                             <h5>Soetlief</h5>
-                            <p>Navrae: <b>Cynthia</b><br>082 874 4885</p>			
+                            <p>Navrae: <b>Jolene</b><br>076 226 8370</p>			
                         </li>	
                     </ul>
                 </div>	
@@ -66,7 +66,7 @@
                         <li class="template-layout-column-right" style="visibility: visible;">
                             <div class="template-icon-feature template-icon-feature-name-keyboard-alt template-icon-feature-size-medium"></div>
                             <h5>Rekenaar</h5>
-                            <p>Navrae: <b>Linda</b><br>084 594 1514</p>			
+                            <p>Navrae: <b>Michelle</b><br>060 977 1765</p>			
                         </li>	
                     </ul>
                 </div>	
