@@ -41,19 +41,19 @@
                     <p><strong>Kwartaalliks: </strong></p>
                     <ul>
                         <li>1 X pak sneesdoekies</li>
-                        <li>1 X handdoekrol</li>
-                        <li>2 X "wet wipes"</li>
+                        <li>2 X handdoekrol</li>
+                        <li>3 X "wet wipes"</li>
                     </ul>
                 </li>
                 <li class="template-layout-column-right" style="visibility: visible;">
                     <h6><strong>3-4 Jariges</strong></h6>
                     <p><strong>Begin van elke jaar:</strong></p>
                     <ul>
-                        <li>4 X 'Flip-files' (20 sakkies) om werkies in te bêre</li>
+                        <li>1 X A3 Plastiekkoevert</li>
                         <li>1 X groot bottel koue lym</li>
                         <li>2 X groot Pritt stafies</li>
                         <li>1 X Steadler Norris Super Jumbo vetkryte</li>
-                        <li>1 X Bic Triangle Kleurpotlode</li>
+                        <li>1 X Uitdraaikryte</li>
                     </ul>
                     <p><strong>Kwartaalliks: </strong></p>
                     <ul>
@@ -66,17 +66,17 @@
                     <h6><strong>4-5 Jariges</strong></h6>
                     <p><strong>Begin van elke jaar:</strong></p>
                     <ul>
-                        <li>4 X Plastiekkoeverte om werkies in te bêre</li>
+                        <li>4 X A3 Plastiekkoeverte om werkies in te bêre</li>
                         <li>1 X groot bottel koue lym</li>
                         <li>3 X groot Pritt stafies</li>
                         <li>1 X Steadler Norris Jumbo vetkryte</li>
-                        <li>1 X Bic Triangle Kleurpotlode</li>
+                        <li>1 X Bic driehoek Inkleurkryte</li>
                     </ul>
                     <p><strong>Kwartaalliks: </strong></p>
                     <ul>
                         <li>1 X pak sneesdoekies</li>
                         <li>1 X handdoekrol</li>
-                        <li>2 X "wet wipes"</li>
+                        <li>1 X "wet wipes"</li>
                     </ul>
                 </li>
                 <li class="template-layout-column-right" style="visibility: visible;">

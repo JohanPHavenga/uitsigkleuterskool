@@ -36,7 +36,7 @@
                     <li class="template-layout-column-<?=$template_column;?>">
                         <div class="template-layout-flex-50x50">
                             <div>
-                                <h5><b><?=$klas['naam'];?></b> klas</h5>
+                                <h5><b><?=$klas['naam'];?></b></h5>
                                 <span><?=$klas['tannie'];?></span>
                                 <div class="template-layout-flex-50x50">
                                     <div>
@@ -45,7 +45,7 @@
                                     </div>
                                     <div>
                                         <span><?=$klas['klas_grote'];?></span>
-                                        <span>Klas grote</span>
+                                        <span>Klas grootte</span>
                                     </div>
                                 </div>
                             </div>

@@ -16,7 +16,7 @@
             <div class="template-component-vertical-grid template-margin-top-3">
                 <ul>
                     <li class="template-component-vertical-grid-line-1n">
-                        <div>Registrasiefooi<br>(<strong><?= $web_data['general']['jaar']; ?></strong>)</div>
+                        <div>Registrasiefooi</div>
                         <div><?= fdisplayCurrency($web_data['financial']['registrasie_fooi']); ?></div>
                     </li>
                 </ul>
