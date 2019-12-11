@@ -46,8 +46,8 @@
                         </li>
                         <li class="template-layout-column-right" style="visibility: visible;">
                             <div class="template-icon-feature template-icon-feature-name-teddy-alt template-icon-feature-size-medium"></div>
-                            <h5>Soetlief</h5>
-                            <p>Navrae: <b>Jolene</b><br>076 226 8370</p>			
+                            <h5>Cricky Netbal</h5>
+                            <p>Navrae: <b>Lize</b><br>079 500 4783</p>			
                         </li>	
                     </ul>
                 </div>	
@@ -60,8 +60,8 @@
                         </li>    
                         <li class="template-layout-column-center" style="visibility: visible;">
                             <div class="template-icon-feature template-icon-feature-name-flag-alt template-icon-feature-size-medium"></div>
-                            <h5>Rugga Kids</h5>
-                            <p>Navrae: <b>Corné</b><br>084 403 4605</p>		
+                            <h5>Cricky Rugby</h5>
+                            <p>Navrae: <b>Albert</b><br>084 018 2900</p>		
                         </li>	
                         <li class="template-layout-column-right" style="visibility: visible;">
                             <div class="template-icon-feature template-icon-feature-name-keyboard-alt template-icon-feature-size-medium"></div>
