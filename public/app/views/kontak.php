@@ -91,7 +91,7 @@
                             'name' => 'contact-form-name',
                             'id' => 'contact-form-name',
                             'value' => set_value('contact-form-name'),
-                            'required' => '',
+//                            'required' => '',
                         ]);
                         ?>
                     </div>
@@ -102,7 +102,7 @@
                             'name' => 'contact-form-email',
                             'id' => 'contact-form-email',
                             'value' => set_value('contact-form-email'),
-                            'required' => '',
+//                            'required' => '',
                         ]);
                         ?>
                     </div>
@@ -113,7 +113,7 @@
                             'name' => 'contact-form-subject',
                             'id' => 'contact-form-subject',
                             'value' => set_value('contact-form-subject'),
-                            'required' => '',
+//                            'required' => '',
                         ]);
                         ?>
                     </div>
@@ -129,7 +129,7 @@
                             'name' => 'contact-form-message',
                             'id' => 'contact-form-message',
                             'value' => set_value('contact-form-message'),
-                            'required' => '',
+//                            'required' => '',
                             'rows' => 1,
                             'cols' => 1,
                         ]);
