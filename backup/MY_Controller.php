@@ -11,7 +11,38 @@ class MY_Controller extends CI_Controller {
         parent::__construct();
         // Load any front-end only dependencies
         $this->ini_array = parse_ini_file("server_config.ini", true);
-//        wts($this->ini_array);
+    }
+
+    public function send_mail($data) {
+        $this->load->library('email');
+
+        $config['mailtype'] = 'html';
+        $config['smtp_host'] = $this->ini_array['email']['smtp_server'];
+        $config['smtp_port'] = $this->ini_array['email']['smtp_port'];
+        $config['smtp_crypto'] = $this->ini_array['email']['smtp_crypto'];
+        $config['charset'] = $this->ini_array['email']['email_charset'];
+        $config['useragent'] = $this->ini_array['email']['useragent'];
+        $this->email->initialize($config);
+
+        $this->email->from($data['emailque_from_address'], $data['emailque_from_name']);
+        $this->email->to($data['emailque_to_address'], $data['emailque_to_name']);
+        if ($data['emailque_cc_address']) {
+            $this->email->cc($data['emailque_cc_address']);
+        }
+        if ($data['emailque_bcc_address']) {
+            $bcc_arr[$data['emailque_bcc_address']] = $data['emailque_bcc_address'];
+        }
+        $bcc_arr[$this->ini_array['email']['bcc_address']] = $this->ini_array['email']['bcc_address'];
+        $this->email->bcc($bcc_arr);
+        $this->email->subject($data['emailque_subject']);
+        $this->email->message($data['emailque_body']);
+
+        wts($data);
+        wts($this->email,1);
+
+        $send = $this->email->send();
+
+        return $send;
     }
 
 }
@@ -144,28 +175,6 @@ class Frontend_Controller extends MY_Controller {
         $return .= '</div>';
 
         return $return;
-    }
-
-    public function recaptcha($str = "") {
-        $google_url = "https://www.google.com/recaptcha/api/siteverify";
-        $secret = '6LdIPrsZAAAAAMgzh9sO6x7D4NKm_XON5cJrVWPT';
-        $ip = $_SERVER['REMOTE_ADDR'];
-        $url = $google_url . "?secret=" . $secret . "&response=" . $str . "&remoteip=" . $ip;
-        $curl = curl_init();
-        curl_setopt($curl, CURLOPT_URL, $url);
-        curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
-        curl_setopt($curl, CURLOPT_TIMEOUT, 10);
-        curl_setopt($curl, CURLOPT_USERAGENT, "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.16) Gecko/20110319 Firefox/3.6.16");
-        $res = curl_exec($curl);
-        curl_close($curl);
-        $res = json_decode($res, true);
-        //reCaptcha success check
-        if ($res['success']) {
-            return TRUE;
-        } else {
-            $this->form_validation->set_message('recaptcha', 'Die <b>reCAPTCHA</b> veld dink jy is \'n robot. Probeer asb weer');
-            return FALSE;
-        }
     }
 
 }
