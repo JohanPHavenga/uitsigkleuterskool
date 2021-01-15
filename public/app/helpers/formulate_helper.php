@@ -60,6 +60,8 @@ if ( ! function_exists('fdateHuman'))
         if ($date)
         {
 //            return date("j F Y",strtotime($date));
+
+            setlocale(LC_TIME, "af-ZA");
             return strftime("%e %B %G",strtotime($date));
         } else {
             return false;

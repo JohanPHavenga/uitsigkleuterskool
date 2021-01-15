@@ -12,7 +12,7 @@
                 <!-- Left column -->
                 <li class="template-layout-column-left" style="visibility: visible;">
                     <div class="template-icon-feature template-icon-feature-name-envelope-alt template-icon-feature-size-medium"></div>
-                    <h5>Postal Address</h5>
+                    <h5>Posadres</h5>
                     <p>
                         17 Mountain View Rylaan<br>
                         Ridgeworth<br>
@@ -26,8 +26,7 @@
                     <div class="template-icon-feature template-icon-feature-name-mobile-alt template-icon-feature-size-medium"></div>
                     <h5>Telefoon &amp; Epos</h5>
                     <p>
-                        Phone: 021 919 6237<br>
-                        Fax: 021 919 6237<br>
+                        Tel no: 021 919 6237<br>
                         <a href="mailto:bestuurshoof@uitsigkleuterskool.co.za?subject=Web-kontak">bestuurshoof@uitsigkleuterskool.co.za</a>			
                     </p>
                 </li>

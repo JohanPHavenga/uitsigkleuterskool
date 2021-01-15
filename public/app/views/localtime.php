@@ -2,7 +2,10 @@
 <!-- Section -->
 <div class="template-content-section template-padding-top-reset template-padding-bottom-5 template-main">
 <?php
+
 setlocale(LC_ALL, 'Afrikaans');
+echo strftime("%e %B %G");
+echo "<br><br>";
 // Describe the formats.
 $strftimeFormats = array(
     'A' => 'A full textual representation of the day',

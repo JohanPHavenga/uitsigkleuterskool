@@ -44,14 +44,14 @@
 
             <div class="template-component-blockquote">
                 <p>
-                    Aansoeke vir <?= $web_data['aansoeke']['jaar']; ?>: Sluit <?= fdateHuman($web_data['aansoeke']['sluitings_datum']); ?>
+                    Aansoeke vir <?= $web_data['aansoeke']['jaar']; ?>: Sluit <?= fdateShort($web_data['aansoeke']['sluitings_datum']); ?>
                 </p>
             </div>
 
-            <p><strong>Die eerste rondte plasings sal teen einde <?= fdateMonthLong($web_data['aansoeke']['sluitings_datum']); ?> afgehandel word. Indien daar nog plekke beskikbaar is, sal 'n tweede rondte plasings gedoen word.</strong></p>
+            <p><strong>Die eerste rondte plasings sal teen <?= fdateShort($web_data['aansoeke']['eerste_rondte_plasings']); ?> afgehandel word. Indien daar nog plekke beskikbaar is, sal 'n tweede rondte plasings gedoen word.</strong></p>
 
             <h5>Klasindelings:</h5>
-            <p>Klasse word jaarliks oor ingedeel. Uitsig Kleuterskool reseveer die reg om klasindelings te doen in oorleg met huidige personeel en met inagneming van kleuters se 
+            <p>Klasse word jaarliks oor ingedeel. Uitsig Kleuterskool reserveer die reg om klasindelings te doen in oorleg met huidige personeel en met inagneming van kleuters se 
                 persoonlikheid en behoeftes. Geen insette van ouers sal klasindelings beinvloed nie.</p>
 
 
