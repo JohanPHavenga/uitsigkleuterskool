@@ -12,7 +12,7 @@
                 <!-- Left column -->
                 <div class="template-component-call-to-action-content-left">
                     <!-- Header -->
-                    <h3><b>Skryf jou kind in</b> by Uitsig Kleuterskool?</h3>
+                    <h3><b>Skryf jou kind in</b> by Uitsig Kleuterskool</h3>
                 </div>
                 <!-- Right column -->
                 <div class="template-component-call-to-action-content-right">

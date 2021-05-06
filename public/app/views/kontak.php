@@ -14,7 +14,7 @@
                     <div class="template-icon-feature template-icon-feature-name-envelope-alt template-icon-feature-size-medium"></div>
                     <h5>Posadres</h5>
                     <p>
-                        17 Mountain View Rylaan<br>
+                        17 Mountainviewrylaan<br>
                         Ridgeworth<br>
                         Kaapstad<br>
                         7530
