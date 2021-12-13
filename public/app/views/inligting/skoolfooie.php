@@ -31,7 +31,7 @@
                     <li>Neem asseblief kennis dat tariewe betaalbaar is oor <strong>11 maande,</strong> vanaf 1 Januarie tot en met 1 November.</li>
                     <li>&lsquo;n Kalendermaand sal vereis word vir kennisgewing, indien u kleuter die skool verlaat.</li>
                     <li>Fooie kan per EFT of debietorder betaal word.</li>
-                    <li>Bewys van betaling per e-pos na: <a href="mailto:kleuterskool@uitsigkerk.co.za">kleuterskool@uitsigkerk.co.za</a></li>
+                    <li>Bewys van betaling per e-pos na: <a href="mailto:admin@uitsigkleuterskool.co.za">admin@uitsigkleuterskool.co.za</a></li>
                     <li>Indien skoolgelde nie aan die einde van elke kwartaal op datum betaal is, of alternatiewe re&euml;lings getref is nie, sal u kleuter onder geen omstandighede die daaropvolgende kwartaal die kleuterskool kan bywoon nie.</li>
                     <li>Agterstallige fooie sal opgevolg word en afbetalingsooreenkomste sal in plek gestel word indien re&euml;lings getref word.</li>
                 </ul>

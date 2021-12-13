@@ -20,7 +20,9 @@
             <h6><strong>Daagliks:</strong></h6>
             <div class="template-component-list template-component-list-style-5 template-padding-bottom-5">
                 <ul>
-                    <li>Duidelik gemerkte kussing en kombers vir slaapdoeleindes in die middag.'n Matras en paslaken word deur die skool verskaf.</li>
+                    <li>Kussing, kombers, paslaken (cot-grootte van plus minus 120 x 60).
+                        Dit moet asb in ‘n 'Pep'-sak met ‘n rits skool toe gebring word op ‘n Maandag en Vrydag weer huis toe
+                        gaan. Ons voorsien '‘n matrassie.</li>
                     <li>Gemaklike, ou klere, wat maar mag vuil word vir lekker speel en beweeg.</li>
                     <li>'n Tassie of rugsak met 'n ekstra stel of twee gemerkte klere; 'n warm top of koeler hempie (n.a.v. seisoen) en 'n plastieksak.</li>
                     <li>'n Gesonde kospakkie en iets om te drink vir 10:00.</li>
@@ -32,49 +34,49 @@
             <ul class="template-layout-50x50 template-clear-fix">
                 <li class="template-layout-column-left" style="visibility: visible;">
                     <h6><strong>18-24 maande/2-3 Jariges</strong></h6>
-                    <p><strong>Begin van elke jaar:</strong></p>
+                    <p><strong>Januarie:</strong></p>
                     <ul>
-                        <li>4 X A3 plastiek koeverte om werkies in te bêre</li>
-                        <li>1 X 1lt bottel koue lym</li>
-                        <li>1 X Steadler Norris Super Jumbo vetkryte</li>
+                        <li>4 x A3 plastiese koevert</li>
+                        <li>1 x 500 ml Koue lym / soortgelyke gom</li>
+                        <li>1 x Steadler Norris Jumbo Vetkryte</li>
                     </ul>
                     <p><strong>Kwartaalliks: </strong></p>
                     <ul>
-                        <li>2 X pak sneesdoekies</li>
+                        <li>2 X snesies</li>
                         <li>2 X handdoekrol</li>
                         <li>4 X "wet wipes"</li>
                     </ul>
                 </li>
                 <li class="template-layout-column-right" style="visibility: visible;">
                     <h6><strong>3-4 Jariges</strong></h6>
-                    <p><strong>Begin van elke jaar:</strong></p>
+                    <p><strong>Januarie:</strong></p>
                     <ul>
-                        <li>4 X A3 plastiek koeverte om werkies in te bêre</li>
-                        <li>1 X 1lt bottel koue lym</li>
-                        <li>2 X groot Pritt stafies</li>
-                        <li>1 X Steadler Norris Super Jumbo vetkryte</li>
-                        <li>1 X BIC 'triangle' potloodkryte</li>
+                        <li>4 x A3 Plastiese koevert</li>
+                        <li>2 x Groot Pritt</li>
+                        <li>1 x Steadler Norris Jumbo Vetkryte</li>
+                        <li>1 x BIC Potloodkryte (Triangle)</li>                        
+                        <li>1 x 500 ml Koue lym / soortgelyke gom</li>
                     </ul>
                     <p><strong>Kwartaalliks: </strong></p>
                     <ul>
-                        <li>2 X pak sneesdoekies</li>
+                        <li>2 X snesies</li>
                         <li>2 X handdoekrol</li>
-                        <li>4 X "wet wipes"</li>
+                        <li>2 X "wet wipes"</li>
                     </ul>
                 </li>
                 <li class="template-layout-column-left" style="visibility: visible;">
                     <h6><strong>4-5 Jariges</strong></h6>
-                    <p><strong>Begin van elke jaar:</strong></p>
+                    <p><strong>Januarie:</strong></p>
                     <ul>
-                        <li>4 X A3 plastiek koeverte om werkies in te bêre</li>
-                        <li>1 X 1lt bottel koue lym</li>
-                        <li>3 X groot Pritt stafies</li>
-                        <li>1 X Steadler Norris Jumbo vetkryte</li>
-                        <li>1 X BIC 'triangle' potloodkryte</li>
+                        <li>4 x A3 Plastiese koevert</li>
+                        <li>2 x Groot Pritt</li>
+                        <li>1 x Steadler Norris Jumbo Vetkryte</li>
+                        <li>1 x Mon Ami Uitdraaikryte</li>
+                        <li>1 x 500 ml Koue lym / soortgelyke gom</li>
                     </ul>
                     <p><strong>Kwartaalliks: </strong></p>
                     <ul>
-                        <li>2 X pak sneesdoekies</li>
+                        <li>2 X snesies</li>
                         <li>2 X handdoekrol</li>
                         <li>2 X "wet wipes"</li>
                     </ul>

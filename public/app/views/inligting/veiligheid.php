@@ -12,7 +12,8 @@
             <div class="template-component-list template-component-list-style-5">
                 <ul>
                     <li>Die oplaai- en aflaaipunt is by die gesamentlike klas en/of die hoofingang.</li>
-                    <li>U sal 'n kode vir die hek ontvang - dit word gereeld verander.</li>
+                    <li>Ons toegangshek is toegerus met 'n <strong>gesigherkennings sisteem</strong>. Ouers moet asb by die kantoor aanmeld 
+                        sodat u foto geneem kan word. Dit word op die sisteem geplaas sodat u toegang tot die skool kan kry.</li>
                     <li><strong>Kleuters mag slegs deur hul ouers afgehaal word</strong>. Indien iemand anders u kleuter kom haal, moet dit asseblief in die 
                         boodskapboek neergeskryf word sodat alle personeel kennis kan neem. U kan ook telefonies reël. Sou dit nie aangeteken wees nie, 
                         sal ons u eers skakel om te bevestig.</li>

@@ -66,8 +66,17 @@
                         <li class="template-layout-column-right" style="visibility: visible;">
                             <div class="template-icon-feature template-icon-feature-name-keyboard-alt template-icon-feature-size-medium"></div>
                             <h5>Rekenaar</h5>
-                            <p>Navrae: <b>Michelle</b><br>060 977 1765</p>			
+                            <p>Navrae: <b>Nico</b><br>082 925 7775</p>			
                         </li>	
+                    </ul>
+                </div>	
+                <div class="template-component-feature template-component-feature-style-1 template-component-feature-position-top template-component-feature-size-medium" style="display: block;">
+                    <ul class="template-layout-33x33x33 template-clear-fix">
+                        <li class="template-layout-column-left" style="visibility: visible;">
+                            <div class="template-icon-feature template-icon-feature-name-blocks-alt template-icon-feature-size-medium"></div>
+                            <h5>Buildem Brix</h5>
+                            <p>Navrae: <b>Danielle</b><br>084 697 7429</p>
+                        </li> 
                     </ul>
                 </div>	
 

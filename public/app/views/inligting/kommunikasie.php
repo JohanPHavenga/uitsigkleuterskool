@@ -11,12 +11,12 @@
         <li class="template-layout-column-left" style="visibility: visible;">
             <div class="template-component-list template-component-list-style-5">	
                 <ul>
-                    <li>Die kommunikasieboek by René se kantoor is vir ouers se gebruik. 
+                    <li>Die kommunikasieboek by Madeleine se kantoor is vir ouers se gebruik. 
                         Indien u nie die betrokke klastannie sien wanneer u u kleuer kom aflaai nie, maak gerus gebruik van die kommunikasieboek 
                         eerder as om 'n boodskap by een van die ander personeel te los. Sodoende verseker ons dat die boodskap wel by die regte persoon uitkom.</li>
                     <li>Vir enige navrae, kontak asseblief vir <strong>Ilze Perry</strong> by 
-                        <a href="mailto:bestuurshoof@uitsigkleuterskool.co.za">bestuurshoof@uitsigkleuterskool.co.za</a> of vir <strong>René Kilian</strong> by 
-                            <a href="mailto:kleuterskool@uitsigkerk.co.za">kleuterskool@uitsigkerk.co.za</a>.</li>
+                        <a href="mailto:bestuurshoof@uitsigkleuterskool.co.za">bestuurshoof@uitsigkleuterskool.co.za</a> of vir <strong>Madeleine Schutzler </strong> by 
+                            <a href="mailto:admin@uitsigkleuterskool.co.za">admin@uitsigkleuterskool.co.za</a>.</li>
                 </ul>
             </div>
         </li>
