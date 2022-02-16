@@ -26,8 +26,8 @@
                     <div class="template-icon-feature template-icon-feature-name-mobile-alt template-icon-feature-size-medium"></div>
                     <h5>Telefoon &amp; Epos</h5>
                     <p>
-                        Tel no: 021 919 6237<br>
-                        <a href="mailto:bestuurshoof@uitsigkleuterskool.co.za?subject=Web-kontak">bestuurshoof@uitsigkleuterskool.co.za</a>			
+                        Tel no: 021 919 6237<br>                        
+                        <?= safe_mailto("bestuurshoof@uitsigkleuterskool.co.za"); ?>
                     </p>
                 </li>
 

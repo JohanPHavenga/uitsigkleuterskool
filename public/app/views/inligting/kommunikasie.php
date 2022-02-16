@@ -15,8 +15,9 @@
                         Indien u nie die betrokke klastannie sien wanneer u u kleuer kom aflaai nie, maak gerus gebruik van die kommunikasieboek 
                         eerder as om 'n boodskap by een van die ander personeel te los. Sodoende verseker ons dat die boodskap wel by die regte persoon uitkom.</li>
                     <li>Vir enige navrae, kontak asseblief vir <strong>Ilze Perry</strong> by 
-                        <a href="mailto:bestuurshoof@uitsigkleuterskool.co.za">bestuurshoof@uitsigkleuterskool.co.za</a> of vir <strong>Madeleine Schutzler </strong> by 
-                            <a href="mailto:admin@uitsigkleuterskool.co.za">admin@uitsigkleuterskool.co.za</a>.</li>
+                        <?= safe_mailto("bestuurshoof@uitsigkleuterskool.co.za"); ?>
+                        of vir <strong>Madeleine Schutzler </strong> by 
+                        <?= safe_mailto("admin@uitsigkleuterskool.co.za"); ?>.</li>
                 </ul>
             </div>
         </li>
